@@ -1,0 +1,26 @@
+Date Parameters
+-----------------------------
+First date : 2024-10-18
+Number of days : 1
+Last date : 2024-10-18
+
+Config Parameters
+-----------------------------
+gen, True
+super_smoothening_kernel, [10, 10]
+threshold_mergepeaks, 120
+threshold_duration, 120
+threshold_snr_region, 1
+threshold_upturns, 3
+nsigma, 0.3
+aggression (< 20200520), 0.7
+
+RunTime Information
+-----------------------------
+2024-11-04 00:16:39.941283 : creation date
+b9e494e5e18c2fa2876d3d755a6dabe0724765c4 : SD commit
+
+Total runtime (s) : 212.8
+Number of processors : 4
+
+BASE_DIR/test_01/XSM_Processed_ Plots(.png), Summary(.csv)

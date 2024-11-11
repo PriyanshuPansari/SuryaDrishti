@@ -1,0 +1,26 @@
+Date Parameters
+-----------------------------
+First date : 2022-08-05
+Number of days : 1
+Last date : 2022-08-05
+
+Config Parameters
+-----------------------------
+gen, True
+super_smoothening_kernel, [10, 10]
+threshold_mergepeaks, 120
+threshold_duration, 120
+threshold_snr_region, 1
+threshold_upturns, 3
+nsigma, 0.3
+aggression (< 20200520), 0.7
+
+RunTime Information
+-----------------------------
+2024-11-10 01:33:08.787755 : creation date
+b9e494e5e18c2fa2876d3d755a6dabe0724765c4 : SD commit
+
+Total runtime (s) : 0.06
+Number of processors : 4
+
+BASE_DIR/chal_ja_bai/XSM_Processed_ Plots(.png), Summary(.csv)

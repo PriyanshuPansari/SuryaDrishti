@@ -1,0 +1,26 @@
+Date Parameters
+-----------------------------
+First date : 2024-04-03
+Number of days : 7
+Last date : 2024-04-09
+
+Config Parameters
+-----------------------------
+gen, True
+super_smoothening_kernel, [10, 10]
+threshold_mergepeaks, 120
+threshold_duration, 120
+threshold_snr_region, 1
+threshold_upturns, 3
+nsigma, 0.3
+aggression (< 20200520), 0.7
+
+RunTime Information
+-----------------------------
+2024-11-10 02:59:00.409757 : creation date
+b9e494e5e18c2fa2876d3d755a6dabe0724765c4 : SD commit
+
+Total runtime (s) : 110.95
+Number of processors : 4
+
+BASE_DIR/ab-nahi-chala-to2/XSM_Processed_ Plots(.png), Summary(.csv)

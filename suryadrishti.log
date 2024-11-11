@@ -1,0 +1,694 @@
+2024-11-03 23:46:50,961 - INFO - Opening FITS file: data/Lightcurves/gen_20241018.lc
+2024-11-03 23:46:50,962 - INFO - FITS file structure:
+2024-11-03 23:46:50,963 - INFO - Primary Header Keys:
+2024-11-03 23:46:50,963 - INFO - SIMPLE: True
+2024-11-03 23:46:50,963 - INFO - BITPIX: 16
+2024-11-03 23:46:50,963 - INFO - NAXIS: 0
+2024-11-03 23:46:50,964 - INFO - EXTEND: True
+2024-11-03 23:46:50,964 - INFO - COMMENT:   FITS (Flexible Image Transport System) format is defined in 'Astronomy
+  and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H
+2024-11-03 23:46:50,964 - INFO - COMMENT:   FITS (Flexible Image Transport System) format is defined in 'Astronomy
+  and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H
+2024-11-03 23:46:50,964 - INFO - MISSION: CHANDRAYAAN-2
+2024-11-03 23:46:50,964 - INFO - TELESCOP: CH-2_ORBITER
+2024-11-03 23:46:50,964 - INFO - INSTRUME: CH2_XSM
+2024-11-03 23:46:50,964 - INFO - ORIGIN: PRLPOC
+2024-11-03 23:46:50,964 - INFO - CREATOR: xsmgenlc
+2024-11-03 23:46:50,964 - INFO - FILENAME: ch2_xsm_20241018_v1_level2.lc
+2024-11-03 23:46:50,965 - INFO - CONTENT: Light curve
+2024-11-03 23:46:50,965 - INFO - DATE: 2024-10-25T02:16:13
+2024-11-03 23:46:50,965 - INFO - XSMDASVE: 1.30
+2024-11-03 23:46:50,965 - INFO - Extension Header Keys:
+2024-11-03 23:46:50,965 - INFO - XTENSION: BINTABLE
+2024-11-03 23:46:50,965 - INFO - BITPIX: 8
+2024-11-03 23:46:50,965 - INFO - NAXIS: 2
+2024-11-03 23:46:50,966 - INFO - NAXIS1: 20
+2024-11-03 23:46:50,966 - INFO - NAXIS2: 69605
+2024-11-03 23:46:50,966 - INFO - PCOUNT: 0
+2024-11-03 23:46:50,966 - INFO - GCOUNT: 1
+2024-11-03 23:46:50,966 - INFO - TFIELDS: 4
+2024-11-03 23:46:50,967 - INFO - TTYPE1: TIME
+2024-11-03 23:46:50,967 - INFO - TFORM1: D
+2024-11-03 23:46:50,967 - INFO - TTYPE2: RATE
+2024-11-03 23:46:50,967 - INFO - TFORM2: E
+2024-11-03 23:46:50,967 - INFO - TTYPE3: ERROR
+2024-11-03 23:46:50,967 - INFO - TFORM3: E
+2024-11-03 23:46:50,967 - INFO - TTYPE4: FRACEXP
+2024-11-03 23:46:50,967 - INFO - TFORM4: E
+2024-11-03 23:46:50,968 - INFO - TUNIT1: s
+2024-11-03 23:46:50,968 - INFO - TUNIT2: count/s
+2024-11-03 23:46:50,968 - INFO - TUNIT3: counts/s
+2024-11-03 23:46:50,968 - INFO - EXTNAME: RATE
+2024-11-03 23:46:50,968 - INFO - DATE-OBS: 2024-10-18 00:00:00.552395000
+2024-11-03 23:46:50,968 - INFO - DATE-END: 2024-10-18 23:59:59.385949000
+2024-11-03 23:46:50,968 - INFO - TSTART: 245981114.55049
+2024-11-03 23:46:50,968 - INFO - TSTOP: 246067200.384949
+2024-11-03 23:46:50,968 - INFO - TIMESYS: UTC
+2024-11-03 23:46:50,968 - INFO - MJDREF: 57754.0
+2024-11-03 23:46:50,969 - INFO - MISSION: CHANDRAYAAN-2
+2024-11-03 23:46:50,969 - INFO - TELESCOP: CH-2_ORBITER
+2024-11-03 23:46:50,969 - INFO - INSTRUME: CH2_XSM
+2024-11-03 23:46:50,969 - INFO - ORIGIN: PRLPOC
+2024-11-03 23:46:50,969 - INFO - CREATOR: xsmgenlc
+2024-11-03 23:46:50,969 - INFO - HDUCLASS: OGIP
+2024-11-03 23:46:50,969 - INFO - HDUCLAS1: LIGHTCURVE
+2024-11-03 23:46:50,969 - INFO - HDUCLAS2: TOTAL
+2024-11-03 23:46:50,969 - INFO - TIMESYS: UTC
+2024-11-03 23:46:50,969 - INFO - TIMEREF: LOCAL
+2024-11-03 23:46:50,969 - INFO - TIMEUNIT: s
+2024-11-03 23:46:50,969 - INFO - TELAPSE: 86085.8344590068
+2024-11-03 23:46:50,969 - INFO - TIMEDEL: 1.0
+2024-11-03 23:46:50,969 - INFO - CHSTART: 0
+2024-11-03 23:46:50,969 - INFO - CHSTOP: 960
+2024-11-03 23:46:50,969 - INFO - XSMDASVE: 1.30
+2024-11-03 23:46:50,970 - INFO - CALDBVER: 20210628
+2024-11-03 23:46:50,970 - INFO - EXTVER: 1
+2024-11-03 23:46:50,970 - INFO - FILENAME: ch2_xsm_20241018_v1_level2.lc
+2024-11-03 23:46:50,970 - INFO - DATE: 2024-10-25T02:16:13
+2024-11-03 23:46:50,970 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,970 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,970 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,970 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,971 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,971 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,971 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,971 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,971 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,972 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,972 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,972 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,972 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,972 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,972 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,973 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,973 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-03 23:46:50,973 - INFO - HISTORY: ************** XSMGENLC **************
+l1file = ch2_xsm_20241018_v1_level1.fits
+lcfile = ch2_xsm_20241018_v1_level2.lc
+lctype = standard
+areascal = yes
+enesel = yes
+enelow = -507783264
+enehigh = -507783264
+eboundsfile = CALDB
+gainfile = CALDB
+tbinsizesec = 1
+hkfile = ch2_xsm_20241018_v1_level1.hk
+safile = ch2_xsm_20241018_v1_level1.sa
+gtifile = ch2_xsm_20241018_v1_level2.gti
+abscoeffile = CALDB
+effareaparfile = CALDB
+clobber = yes
+**************************************
+2024-11-04 00:07:27,735 - INFO - Starting SuryaDrishti processing
+2024-11-04 00:07:27,736 - INFO - Processing 1 days starting from 2024-10-18
+2024-11-04 00:07:27,752 - INFO - Processing date: 20241018
+2024-11-04 00:07:28,015 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-04 00:09:59,747 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20241018_summary.csv
+2024-11-04 00:09:59,794 - INFO - Saving plots for date 20241018
+2024-11-04 00:13:03,963 - INFO - Starting SuryaDrishti processing
+2024-11-04 00:13:07,136 - INFO - Starting SuryaDrishti processing
+2024-11-04 00:13:07,136 - INFO - Processing 1 days starting from 2024-10-18
+2024-11-04 00:13:07,153 - INFO - Processing date: 20241018
+2024-11-04 00:13:07,406 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-04 00:15:34,783 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20241018_summary.csv
+2024-11-04 00:15:34,829 - INFO - Saving plots for date 20241018
+2024-11-04 00:16:39,923 - INFO - Successfully processed 20241018
+2024-11-04 00:16:39,943 - INFO - Total runtime: 212.8 seconds
+2024-11-04 00:16:39,943 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/test_01
+2024-11-07 17:23:56,031 - INFO - Starting SuryaDrishti processing
+2024-11-07 17:23:56,031 - INFO - Processing 31 days starting from 2022-08-01
+2024-11-07 17:23:56,051 - INFO - Processing date: 20220801
+2024-11-07 17:23:56,051 - INFO - Processing date: 20220803
+2024-11-07 17:23:56,051 - INFO - Processing date: 20220805
+2024-11-07 17:23:56,051 - INFO - Processing date: 20220807
+2024-11-07 17:23:56,051 - ERROR - Lightcurve 20220801 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20220801.lc does not exist
+2024-11-07 17:23:56,051 - INFO - Processing date: 20220802
+2024-11-07 17:23:56,051 - ERROR - Lightcurve 20220802 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20220802.lc does not exist
+2024-11-07 17:23:56,051 - INFO - Processing date: 20220809
+2024-11-07 17:23:56,147 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:23:56,326 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:23:56,462 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:23:56,469 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:26:16,151 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220803_summary.csv
+2024-11-07 17:26:16,187 - INFO - Saving plots for date 20220803
+2024-11-07 17:26:47,364 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220807_summary.csv
+2024-11-07 17:26:47,407 - INFO - Saving plots for date 20220807
+2024-11-07 17:26:56,180 - INFO - Successfully processed 20220803
+2024-11-07 17:26:56,181 - INFO - Processing date: 20220804
+2024-11-07 17:26:56,181 - ERROR - Lightcurve 20220804 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20220804.lc does not exist
+2024-11-07 17:26:56,181 - INFO - Processing date: 20220811
+2024-11-07 17:26:56,689 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:27:18,587 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220809_summary.csv
+2024-11-07 17:27:18,636 - INFO - Saving plots for date 20220809
+2024-11-07 17:27:39,840 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220805_summary.csv
+2024-11-07 17:27:39,880 - INFO - Saving plots for date 20220805
+2024-11-07 17:27:54,625 - INFO - Successfully processed 20220807
+2024-11-07 17:27:54,625 - INFO - Processing date: 20220808
+2024-11-07 17:27:55,091 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:28:28,493 - INFO - Successfully processed 20220809
+2024-11-07 17:28:28,493 - INFO - Processing date: 20220810
+2024-11-07 17:28:29,005 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:28:37,679 - INFO - Successfully processed 20220805
+2024-11-07 17:28:37,680 - INFO - Processing date: 20220806
+2024-11-07 17:28:38,127 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:30:51,508 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220811_summary.csv
+2024-11-07 17:30:51,556 - INFO - Saving plots for date 20220811
+2024-11-07 17:31:06,882 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220806_summary.csv
+2024-11-07 17:31:06,918 - INFO - Saving plots for date 20220806
+2024-11-07 17:31:12,043 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220808_summary.csv
+2024-11-07 17:31:12,090 - INFO - Saving plots for date 20220808
+2024-11-07 17:32:09,220 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220810_summary.csv
+2024-11-07 17:32:09,278 - INFO - Saving plots for date 20220810
+2024-11-07 17:32:11,724 - INFO - Successfully processed 20220806
+2024-11-07 17:32:11,724 - INFO - Processing date: 20220813
+2024-11-07 17:32:12,309 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:32:12,371 - INFO - Successfully processed 20220811
+2024-11-07 17:32:12,371 - INFO - Processing date: 20220812
+2024-11-07 17:32:12,932 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:32:25,803 - INFO - Successfully processed 20220808
+2024-11-07 17:32:25,804 - INFO - Processing date: 20220815
+2024-11-07 17:32:26,458 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:33:27,187 - INFO - Successfully processed 20220810
+2024-11-07 17:33:27,188 - INFO - Processing date: 20220817
+2024-11-07 17:33:27,880 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:35:12,679 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220815_summary.csv
+2024-11-07 17:35:12,711 - INFO - Saving plots for date 20220815
+2024-11-07 17:35:41,745 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220817_summary.csv
+2024-11-07 17:35:41,778 - INFO - Saving plots for date 20220817
+2024-11-07 17:35:55,328 - INFO - Successfully processed 20220815
+2024-11-07 17:35:55,328 - INFO - Processing date: 20220816
+2024-11-07 17:35:55,922 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:36:17,676 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220813_summary.csv
+2024-11-07 17:36:17,709 - INFO - Saving plots for date 20220813
+2024-11-07 17:36:26,681 - INFO - Successfully processed 20220817
+2024-11-07 17:36:26,681 - INFO - Processing date: 20220818
+2024-11-07 17:36:27,314 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:36:54,678 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220812_summary.csv
+2024-11-07 17:36:54,720 - INFO - Saving plots for date 20220812
+2024-11-07 17:37:01,223 - INFO - Successfully processed 20220813
+2024-11-07 17:37:01,223 - INFO - Processing date: 20220814
+2024-11-07 17:37:01,783 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:37:57,818 - INFO - Successfully processed 20220812
+2024-11-07 17:37:57,818 - INFO - Processing date: 20220819
+2024-11-07 17:37:58,517 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:39:09,659 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220816_summary.csv
+2024-11-07 17:39:09,691 - INFO - Saving plots for date 20220816
+2024-11-07 17:40:01,500 - INFO - Successfully processed 20220816
+2024-11-07 17:40:01,500 - INFO - Processing date: 20220821
+2024-11-07 17:40:02,227 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:40:20,703 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220814_summary.csv
+2024-11-07 17:40:20,744 - INFO - Saving plots for date 20220814
+2024-11-07 17:40:48,063 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220818_summary.csv
+2024-11-07 17:40:48,096 - INFO - Saving plots for date 20220818
+2024-11-07 17:41:28,345 - INFO - Successfully processed 20220814
+2024-11-07 17:41:28,345 - INFO - Processing date: 20220823
+2024-11-07 17:41:29,088 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:41:35,714 - INFO - Successfully processed 20220818
+2024-11-07 17:41:35,714 - INFO - Processing date: 20220825
+2024-11-07 17:41:36,547 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:41:59,813 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220819_summary.csv
+2024-11-07 17:41:59,863 - INFO - Saving plots for date 20220819
+2024-11-07 17:43:22,254 - INFO - Successfully processed 20220819
+2024-11-07 17:43:22,254 - INFO - Processing date: 20220820
+2024-11-07 17:43:23,149 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:46:35,638 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220825_summary.csv
+2024-11-07 17:46:35,685 - INFO - Saving plots for date 20220825
+2024-11-07 17:47:38,303 - INFO - Successfully processed 20220825
+2024-11-07 17:47:38,303 - INFO - Processing date: 20220826
+2024-11-07 17:47:39,097 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:48:01,872 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220823_summary.csv
+2024-11-07 17:48:01,944 - INFO - Saving plots for date 20220823
+2024-11-07 17:48:43,945 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220821_summary.csv
+2024-11-07 17:48:44,016 - INFO - Saving plots for date 20220821
+2024-11-07 17:48:54,630 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220826_summary.csv
+2024-11-07 17:48:54,655 - INFO - Saving plots for date 20220826
+2024-11-07 17:49:42,721 - INFO - Successfully processed 20220826
+2024-11-07 17:49:42,721 - INFO - Processing date: 20220827
+2024-11-07 17:49:43,556 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:49:53,686 - INFO - Successfully processed 20220823
+2024-11-07 17:49:53,686 - INFO - Processing date: 20220824
+2024-11-07 17:49:54,865 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:50:08,208 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220820_summary.csv
+2024-11-07 17:50:08,274 - INFO - Saving plots for date 20220820
+2024-11-07 17:50:41,450 - INFO - Successfully processed 20220821
+2024-11-07 17:50:41,450 - INFO - Processing date: 20220822
+2024-11-07 17:50:42,263 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:51:56,205 - INFO - Successfully processed 20220820
+2024-11-07 17:51:56,205 - INFO - Processing date: 20220829
+2024-11-07 17:51:57,178 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:52:23,956 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220827_summary.csv
+2024-11-07 17:52:23,990 - INFO - Saving plots for date 20220827
+2024-11-07 17:53:21,252 - INFO - Successfully processed 20220827
+2024-11-07 17:53:21,252 - INFO - Processing date: 20220828
+2024-11-07 17:53:22,192 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:54:52,830 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220829_summary.csv
+2024-11-07 17:54:52,855 - INFO - Saving plots for date 20220829
+2024-11-07 17:55:01,548 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220822_summary.csv
+2024-11-07 17:55:01,597 - INFO - Saving plots for date 20220822
+2024-11-07 17:55:15,577 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220828_summary.csv
+2024-11-07 17:55:15,602 - INFO - Saving plots for date 20220828
+2024-11-07 17:55:37,516 - INFO - Successfully processed 20220829
+2024-11-07 17:55:37,516 - INFO - Processing date: 20220830
+2024-11-07 17:55:38,415 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:55:55,210 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220824_summary.csv
+2024-11-07 17:55:55,287 - INFO - Saving plots for date 20220824
+2024-11-07 17:56:04,334 - INFO - Successfully processed 20220828
+2024-11-07 17:56:04,334 - INFO - Processing date: 20220831
+2024-11-07 17:56:05,187 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-07 17:56:23,137 - INFO - Successfully processed 20220822
+2024-11-07 17:57:52,293 - INFO - Successfully processed 20220824
+2024-11-07 17:58:37,039 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220830_summary.csv
+2024-11-07 17:58:37,071 - INFO - Saving plots for date 20220830
+2024-11-07 17:59:25,909 - INFO - Successfully processed 20220830
+2024-11-07 18:00:08,284 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220831_summary.csv
+2024-11-07 18:00:08,333 - INFO - Saving plots for date 20220831
+2024-11-07 18:01:25,748 - INFO - Successfully processed 20220831
+2024-11-07 18:01:25,802 - INFO - Total runtime: 2249.76 seconds
+2024-11-07 18:01:25,803 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/recreate
+2024-11-09 22:19:57,544 - INFO - Starting SuryaDrishti processing
+2024-11-09 22:19:57,544 - ERROR - Invalid usage. Required: python3 logmain.py <output_root>
+2024-11-09 22:20:05,403 - INFO - Starting SuryaDrishti processing
+2024-11-09 22:20:05,404 - INFO - Processing 1 days starting from 2022-08-01
+2024-11-09 22:20:05,430 - INFO - Processing date: 20220801
+2024-11-09 22:20:05,430 - ERROR - Lightcurve 20220801 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20220801.lc does not exist
+2024-11-09 22:20:05,457 - INFO - Total runtime: 0.04 seconds
+2024-11-09 22:20:05,457 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/c1
+2024-11-09 22:20:48,545 - INFO - Starting SuryaDrishti processing
+2024-11-09 22:20:53,807 - INFO - Starting SuryaDrishti processing
+2024-11-09 22:20:53,807 - INFO - Processing 1 days starting from 2022-08-07
+2024-11-09 22:20:53,841 - INFO - Processing date: 20220807
+2024-11-09 22:20:54,249 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-09 22:23:52,448 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220807_summary.csv
+2024-11-09 22:23:52,500 - INFO - Saving plots for date 20220807
+2024-11-09 22:24:58,212 - INFO - Successfully processed 20220807
+2024-11-09 22:24:58,273 - INFO - Total runtime: 244.45 seconds
+2024-11-09 22:24:58,273 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/c2
+2024-11-09 22:30:42,077 - INFO - Starting SuryaDrishti processing
+2024-11-09 22:30:42,077 - INFO - Processing 1 days starting from 2022-08-05
+2024-11-09 22:30:42,110 - INFO - Processing date: 20220805
+2024-11-09 22:30:42,435 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-09 22:33:35,575 - INFO - Starting SuryaDrishti processing
+2024-11-09 22:33:35,575 - INFO - Processing 1 days starting from 2022-08-05
+2024-11-09 22:33:35,603 - INFO - Processing date: 20220805
+2024-11-09 22:33:36,059 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-09 22:38:35,620 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220805_summary.csv
+2024-11-09 22:38:35,669 - INFO - Saving plots for date 20220805
+2024-11-09 22:39:48,186 - INFO - Successfully processed 20220805
+2024-11-09 22:39:48,214 - INFO - Total runtime: 372.63 seconds
+2024-11-09 22:39:48,214 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/c5
+2024-11-10 01:30:06,190 - INFO - Starting SuryaDrishti processing
+2024-11-10 01:30:06,190 - INFO - Processing 1 days starting from 2022-08-05
+2024-11-10 01:30:06,217 - INFO - Processing date: 20220805
+2024-11-10 01:30:06,218 - ERROR - Lightcurve 20220805 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20220805.lc does not exist
+2024-11-10 01:30:06,247 - INFO - Total runtime: 0.05 seconds
+2024-11-10 01:30:06,248 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/chal_ja_bai
+2024-11-10 01:31:27,225 - INFO - Starting SuryaDrishti processing
+2024-11-10 01:31:27,226 - INFO - Processing 1 days starting from 2022-08-05
+2024-11-10 01:31:27,251 - INFO - Processing date: 20220805
+2024-11-10 01:31:27,251 - ERROR - Lightcurve 20220805 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20220805.lc does not exist
+2024-11-10 01:31:27,278 - INFO - Total runtime: 0.04 seconds
+2024-11-10 01:31:27,278 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/chal_ja_bai
+2024-11-10 01:32:50,519 - INFO - Starting SuryaDrishti processing
+2024-11-10 01:33:08,720 - INFO - Starting SuryaDrishti processing
+2024-11-10 01:33:08,721 - INFO - Processing 1 days starting from 2022-08-05
+2024-11-10 01:33:08,745 - INFO - Processing date: 20220805
+2024-11-10 01:33:08,763 - ERROR - Lightcurve 20220805 aborted: 0
+2024-11-10 01:33:08,790 - INFO - Total runtime: 0.06 seconds
+2024-11-10 01:33:08,790 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/chal_ja_bai
+2024-11-10 01:33:34,040 - INFO - Starting SuryaDrishti processing
+2024-11-10 01:33:38,414 - INFO - Starting SuryaDrishti processing
+2024-11-10 01:33:38,414 - INFO - Processing 1 days starting from 2022-08-06
+2024-11-10 01:33:38,439 - INFO - Processing date: 20220806
+2024-11-10 01:33:38,558 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-10 01:33:57,674 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20220806_summary.csv
+2024-11-10 01:33:57,676 - INFO - Saving plots for date 20220806
+2024-11-10 01:34:03,035 - INFO - Successfully processed 20220806
+2024-11-10 01:34:03,063 - INFO - Total runtime: 24.64 seconds
+2024-11-10 01:34:03,063 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/chal_ja_bai2
+2024-11-10 02:00:31,030 - INFO - Starting SuryaDrishti processing
+2024-11-10 02:00:31,030 - INFO - Processing 1 days starting from 2024-08-06
+2024-11-10 02:00:31,055 - INFO - Processing date: 20240806
+2024-11-10 02:00:31,055 - ERROR - Lightcurve 20240806 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20240806.lc does not exist
+2024-11-10 02:00:31,082 - INFO - Total runtime: 0.04 seconds
+2024-11-10 02:00:31,082 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/chal_ja_bai3
+2024-11-10 02:09:51,828 - INFO - Starting SuryaDrishti processing
+2024-11-10 02:09:51,829 - INFO - Processing 1 days starting from 2024-08-06
+2024-11-10 02:09:51,853 - INFO - Processing date: 20240806
+2024-11-10 02:09:51,863 - ERROR - Lightcurve 20240806 aborted: 0
+2024-11-10 02:09:51,889 - INFO - Total runtime: 0.05 seconds
+2024-11-10 02:09:51,889 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/chal-ja
+2024-11-10 02:17:28,069 - INFO - Starting SuryaDrishti processing
+2024-11-10 02:17:28,070 - INFO - Processing 2 days starting from 2024-08-05
+2024-11-10 02:17:28,093 - INFO - Processing date: 20240805
+2024-11-10 02:17:28,093 - INFO - Processing date: 20240806
+2024-11-10 02:17:28,107 - ERROR - Lightcurve 20240805 aborted: 0
+2024-11-10 02:17:28,107 - ERROR - Lightcurve 20240806 aborted: 0
+2024-11-10 02:17:28,133 - INFO - Total runtime: 0.05 seconds
+2024-11-10 02:17:28,134 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/chal-ja2
+2024-11-10 02:56:12,404 - INFO - Starting SuryaDrishti processing
+2024-11-10 02:56:12,405 - INFO - Processing 7 days starting from 2024-04-03
+2024-11-10 02:56:12,431 - INFO - Processing date: 20240403
+2024-11-10 02:56:12,431 - INFO - Processing date: 20240404
+2024-11-10 02:56:12,431 - INFO - Processing date: 20240405
+2024-11-10 02:56:12,432 - INFO - Processing date: 20240406
+2024-11-10 02:56:12,432 - ERROR - Lightcurve 20240403 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20240403.lc does not exist
+2024-11-10 02:56:12,432 - ERROR - Lightcurve 20240404 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20240404.lc does not exist
+2024-11-10 02:56:12,432 - ERROR - Lightcurve 20240405 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20240405.lc does not exist
+2024-11-10 02:56:12,432 - ERROR - Lightcurve 20240406 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20240406.lc does not exist
+2024-11-10 02:56:12,432 - INFO - Processing date: 20240407
+2024-11-10 02:56:12,432 - INFO - Processing date: 20240408
+2024-11-10 02:56:12,432 - ERROR - Lightcurve 20240407 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20240407.lc does not exist
+2024-11-10 02:56:12,432 - INFO - Processing date: 20240409
+2024-11-10 02:56:12,432 - ERROR - Lightcurve 20240408 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20240408.lc does not exist
+2024-11-10 02:56:12,432 - ERROR - Lightcurve 20240409 aborted: /home/undead/isro/SuryaDrishti/data/Lightcurves/gen_20240409.lc does not exist
+2024-11-10 02:56:12,459 - INFO - Total runtime: 0.04 seconds
+2024-11-10 02:56:12,459 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/ab-nahi-chala-to
+2024-11-10 02:57:05,966 - INFO - Starting SuryaDrishti processing
+2024-11-10 02:57:09,452 - INFO - Starting SuryaDrishti processing
+2024-11-10 02:57:09,453 - INFO - Processing 7 days starting from 2024-04-03
+2024-11-10 02:57:09,478 - INFO - Processing date: 20240403
+2024-11-10 02:57:09,478 - INFO - Processing date: 20240404
+2024-11-10 02:57:09,479 - INFO - Processing date: 20240405
+2024-11-10 02:57:09,479 - INFO - Processing date: 20240406
+2024-11-10 02:57:09,595 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-10 02:57:09,595 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-10 02:57:09,598 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-10 02:57:29,812 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20240404_summary.csv
+2024-11-10 02:57:29,816 - INFO - Saving plots for date 20240404
+2024-11-10 02:57:37,234 - INFO - Successfully processed 20240404
+2024-11-10 02:57:37,234 - INFO - Processing date: 20240407
+2024-11-10 02:57:37,385 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-10 02:57:50,756 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20240405_summary.csv
+2024-11-10 02:57:50,760 - INFO - Saving plots for date 20240405
+2024-11-10 02:57:59,565 - INFO - Successfully processed 20240405
+2024-11-10 02:57:59,565 - INFO - Processing date: 20240408
+2024-11-10 02:57:59,658 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-10 02:58:00,688 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20240403_summary.csv
+2024-11-10 02:58:00,693 - INFO - Saving plots for date 20240403
+2024-11-10 02:58:03,200 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20240406_summary.csv
+2024-11-10 02:58:03,205 - INFO - Saving plots for date 20240406
+2024-11-10 02:58:09,494 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20240408_summary.csv
+2024-11-10 02:58:09,496 - INFO - Saving plots for date 20240408
+2024-11-10 02:58:09,929 - INFO - Successfully processed 20240403
+2024-11-10 02:58:09,929 - INFO - Processing date: 20240409
+2024-11-10 02:58:09,993 - WARNING - nan_treatment='interpolate', however, NaN values detected post convolution. A contiguous region of NaN values, larger than the kernel size, are present in the input array. Increase the kernel size to avoid this.
+2024-11-10 02:58:11,349 - INFO - Successfully processed 20240406
+2024-11-10 02:58:13,197 - INFO - Successfully processed 20240408
+2024-11-10 02:58:17,631 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20240407_summary.csv
+2024-11-10 02:58:17,634 - INFO - Saving plots for date 20240407
+2024-11-10 02:58:22,793 - INFO - Successfully processed 20240407
+2024-11-10 02:58:51,660 - INFO - Saving summary to /home/undead/isro/SuryaDrishti/data/XSM_Processed_Summary/20240409_summary.csv
+2024-11-10 02:58:51,664 - INFO - Saving plots for date 20240409
+2024-11-10 02:59:00,385 - INFO - Successfully processed 20240409
+2024-11-10 02:59:00,412 - INFO - Total runtime: 110.95 seconds
+2024-11-10 02:59:00,412 - INFO - Processing complete. Results saved in /home/undead/isro/SuryaDrishti/data/Runs/ab-nahi-chala-to2
